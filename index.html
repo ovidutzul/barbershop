@@ -147,7 +147,7 @@
             </div>
 
             <div class="centered-container">
-                <button class="button">Book a Service</button>
+                <button data-modal-open class="button">Book a Service</button>
             </div>
         </section>
 
@@ -177,7 +177,7 @@
             </ul>
 
             <article>
-                <img src=" ./images/horizontal-dash.svg" alt="Horizontal Dash" />
+                <img src="./images/horizontal-dash.svg" alt="Horizontal Dash">
                 <h3>Old school</h3>
                 <h2>Why do they come to us?</h2>
                 <p>Only good things are said about us. But it is better to see and feel 1 time than to read
@@ -188,7 +188,7 @@
 
             <!-- For true connoisseurs of the atmosphere Section -->
             <section>
-                <img src=" ./images/horizontal-dash.svg" alt="Horizontal Dash" />
+                <img src="./images/horizontal-dash.svg" alt="Horizontal Dash">
                 <h3>For true connoisseurs of the atmosphere</h3>
                 <h2>Our Barbers</h2>
 
@@ -210,6 +210,15 @@
 
     </main>
 
+    <!-- Book Service Modal -->
+    <div class="modal" data-modal>
+        <div class="modal-content">
+            <button class="close-btn" data-modal-close>&times;</button>
+            Continut modal
+        </div>
+    </div>
+    
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
